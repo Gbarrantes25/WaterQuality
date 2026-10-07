@@ -37,7 +37,7 @@ def _(mo):
 @app.cell
 def _(pd):
     df = pd.read_parquet(
-        "https://githubusercontent.com/Gbarrantes25/WaterQuality/main/datos_morea.parquet"
+        "https://github.com/Gbarrantes25/WaterQuality/raw/refs/heads/main/datos_morea.parquet"
     )
 
     df
@@ -47,7 +47,7 @@ def _(pd):
 @app.cell
 def _(pd):
     df_location = pd.read_parquet(
-        "https://githubusercontent.com/Gbarrantes25/WaterQuality/main/Ubicacion.parquet"
+        "https://github.com/Gbarrantes25/WaterQuality/raw/refs/heads/main/Ubicacion.parquet"
     )
 
     df_location.index = df_location.index + 1
