@@ -47,7 +47,7 @@ def _(pd):
 @app.cell
 def _(pd):
     df_location = pd.read_parquet(
-        r"D:\Fuentes de Datos (csv,parquet,xlsx, etc)\PARQUET\Calidad de Agua en Peru\Ubicacion.parquet"
+        "https://github.com/Gbarrantes25/WaterQuality/blob/main/Ubicacion.parquet"
     )
 
     df_location.index = df_location.index + 1
