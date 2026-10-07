@@ -37,7 +37,7 @@ def _(mo):
 @app.cell
 def _(pd):
     df = pd.read_parquet(
-        r"D:\Fuentes de Datos (csv,parquet,xlsx, etc)\PARQUET\Calidad de Agua en Peru\datos_morea.parquet"
+        "https://github.com/Gbarrantes25/WaterQuality/blob/main/datos_morea.parquet"
     )
 
     df
