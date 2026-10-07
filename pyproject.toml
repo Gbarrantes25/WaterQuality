@@ -1,0 +1,19 @@
+[project]
+name = "marimo-proyect"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "marimo[recommended]>=0.25.0",
+    "numpy>=2.5.3",
+    "pandas>=3.0.6",
+    "plotly>=7.1.0",
+]
+
+[project.scripts]
+marimo-proyect = "marimo_proyect:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
